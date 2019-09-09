@@ -1,0 +1,226 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74684951-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-74684951-1');
+		gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+		ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id.
+	</script>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<!-- MD Style -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Major Style -->
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="bookmark" type="image/x-icon" href="../img/favicon.ico"/>
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="icon" href="../img/favicon.ico">
+
+	<title>MUCHAO</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class = "row">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a id="logo" class="navbar-brand col-md-12" href="../index.html">
+						<img class= "img-responsive" src="../img/logo_nav.png" alt="MT DESIGN" onclick="makeSelectedActive()">
+					</a>
+
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+
+						<li class="active" id="selectedLink">
+							<a href="../index.html"><span>SELECTED WORKS</span></a>
+						</li>
+
+						<li>
+							<a href="../uber.html"><span>UBER THOUGHTS</span></a>
+						</li>
+
+						<li>
+							<a href="../awards.html"><span>AWARDS</span></a>
+						</li>
+
+						<li>
+							<a href="../about.html"><span>ABOUT ME</span></a>
+						</li>                          
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</nav>
+
+
+
+	<div class="container">
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="selected">
+				<!-- copy above, same every project page -->
+
+				<div class="row" id="simpletrac">
+
+					<div class="projectDetail">
+						<h1>SIMPLETRAC</h1><ul dir="ltr"><li>Product design for SimpleTrac</li></ul><h2>Background</h2><p>Glucose management service that features simplified measuring process, elder-friendly interaction and easy management.</p>
+						<p>Product design for SimpleTrac</p>
+						<p>Tools: Adobe XD, Bootstrap, Illustrator, Rhino</p>
+						<p>Individual graduation project</p>
+
+						<h2>RESEARCH</h2>
+						<h3>Problem Scope</h3>
+						<p>SimpleTrac is a company providing glucose management service targeting at type 2 diabete patients. They have a patent in painless glucose measuring, and are looking for a design to leverage the patented technology.
+						</p>
+
+						<p>People who have type 2 diabetes are normally over 45 years old. They have a different mental model from ours, thus their habit of using products, either hardware or software, also differs. While the glucose management services in the current market are complex to use, unfriendly to users, and not accurate, there is really not an ideal way to manage their glucose level. With the new patented technology of SimpleTrac, I designed the 1st version of the product.
+						</p>
+						<p>
+							The major problems are:
+							<ul>
+								<li><p>Measuring process is too complex</li>
+								<li><p>The target users tend to interpret interfaces different from the younger generation who have been brought up in digital era
+								</p></li>
+								<li><p>The real needs of target users</p></li>
+							</ul>
+						</p>
+
+						<h3>Challenge</h3>
+						<ul>
+							<li>All the major features should be reached within 2 clicks.</li>
+							<li>Major features should always be visible to users.</li>
+							<li>Simplify the detecting process as much as possible.</li>
+						</ul>
+
+						<h3>Information Architecture</h3>
+						<img src="img/simpletrac/IA.png">
+
+						<h3>User Flow</h3>
+						<p>All the major features are designed to be easy to access. With all the major features categorized into 4 major groups, I use a tab menu to display all of them on the homepage, so that users know that there are these features accessible. In some features that contains sub-categories, I use an upper tab menu to show these options.</p>
+						<img src="img/simpletrac/userFlow.png">
+
+						<h3>Easy Measuring</h3>
+						<img src="img/simpletrac/measure.png">
+						<img src="img/simpletrac/mesureRender.gif">
+
+						<h3>Major Feature</h3>
+						<img src="img/simpletrac/majorFeature.png">
+
+						<h3>Primary Persona</h3>
+						<img src="img/simpletrac/p1.png">
+
+						<h3>Secondary Persona</h3>
+						<img src="img/simpletrac/p2.png">
+
+						<h3>Competitive analysis</h3>
+						<p>Typical measuring process</p>
+						<p>iHealthBG5 is a top-seller in Chinese glucose management product market. It provides reliable measuring and tracking service. The measuring process, however, is very complex.</p>
+
+						<div class="pictures">
+							<figure>
+								<img src="img/simpletrac/competitive.png">
+							</figure>
+						</div>
+
+						<div class="paragraph">
+							<h2>Design</h2><h3>Design Guideline</h3><ul><li>All the major features should be reached within 2 clicks.</li><li>Major features should always be visible to users.</li><li>The measuring process should be as simple as possible.</li><li>The product should be easy to grab</li><li>The product should be easy to use</li></ul>
+
+							<h3>Moodboard</h3>
+						</div>
+						<div class="pictures">
+							<figure class="twopic">
+								<img src="img/simpletrac/healthy.png">
+							</figure>
+							<figure class="twopic">
+								<img src="img/simpletrac/mild.png">
+							</figure>
+						</div>
+
+						<div class="paragraph"><h3>Sketches & Prototypes</h3></div>
+						<div class="pictures">
+							<figure>
+								<img src="img/simpletrac/sketch1.png">
+							</figure>
+							<figure class="picturecenter">
+								<img src="img/simpletrac/prototype1.jpg">
+							</figure>
+						</div>
+
+						<div class="paragraph"><h3>Rendering</h3></div>
+						<div class="pictures">
+							<figure>
+								<img src="img/simpletrac/render.png">
+							</figure>
+						</div>
+
+						<div class="paragraph"><h3>Explosive View</h3></div>
+						<div class="pictures">
+							<figure>
+								<img src="img/simpletrac/explosive.png">
+							</figure>
+						</div>
+
+						<div class="paragraph"><h3>Responsive Webpage</h3></div>
+						<div class="pictures">
+							<figure>
+								<img src="img/simpletrac/web.png">
+							</figure>
+						</div>
+					</div>
+
+					<div class="pageButton">
+						<p>
+						<p class="right"><a href="yozo.html">YOZO Office</a>/<a href="momenta.html">Momenta App</a>
+							</p>
+							<p class="left"><a class="left" href="../index.html">Back to SELECTED WORKS</a></p>
+						</p>
+					</div>
+				</div>
+
+				<!-- copy below, same every project page -->
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-social-icons">
+			<h4>Drop me a line?</h4>
+			<ul class="social-icons">
+				<li><a href="https://www.linkedin.com/in/muchao/" class="social-icon"> <i class="fa fa-linkedin hvr-shadow"></i></a></li>
+				<li><a href="mailto:hellotommy1994@gmail.com" class="social-icon"> <i class="fa fa-envelope hvr-shadow"></i></a></li>
+				<li><a href="https://medium.com/@muchao" class="social-icon"> <i class="fa fa-medium hvr-shadow"></i></a></li>
+				<li><a href="https://twitter.com/Muchao94" class="social-icon"> <i class="fa fa-twitter hvr-shadow"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
